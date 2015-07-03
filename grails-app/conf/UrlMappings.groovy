@@ -1,5 +1,4 @@
 class UrlMappings {
-
 	static mappings = {
         "/fulfillment-simulator"(resources:'fulfillmentSimulator')
         "/fulfillment-sniffer"(resources:'fulfillmentSniffer')
