@@ -13,13 +13,13 @@ class FulfillmentSnifferController extends RestfulController {
 
     def save = {
         final FulfillmentSniffer f = new FulfillmentSniffer(new Date(), request.requestURI, request.JSON.toString())
-        f.save(flush: true)
+        f.save(failOnError:true, flush: true)
         render params
     }
 
     def update = {
         final FulfillmentSniffer f = new FulfillmentSniffer(new Date(), request.requestURI, request.JSON.toString())
-        f.save(flush: true)
+        f.save(failOnError:true, flush: true)
         render params
     }
 }

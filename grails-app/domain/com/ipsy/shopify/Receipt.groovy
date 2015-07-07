@@ -1,9 +1,6 @@
 package com.ipsy.shopify
 
-class FulfillmentSimulator {
+class Receipt {
     static constraints = {
-    }
-
-    static mapping = {
     }
 }
